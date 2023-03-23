@@ -52,9 +52,9 @@ switch (option) {
                 let pets = JSON.parse(data)
                 let updatedPet = pets[petIndex];
                 updatedPet.age = petAge
-                updatedPet.kind = petKind
-                updatedPet.name = petName
-                console.log(updatedPet)
+                updatedPet.kind= petKind
+                updatedPet.name= petName
+                console.log(updtedPet)
                 let jsonAddedPets = JSON.stringify(pets)
                 fs.writeFileSync('pets.json', jsonAddedPets, 'utf-8')
             })
