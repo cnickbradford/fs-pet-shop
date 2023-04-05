@@ -3,3 +3,17 @@ GET http://localhost:5000/pets/1
 
 ###
 POST http://localhost:8000/pets
+
+### restful server using database test get request
+GET http://localhost:5000/
+
+### Reads all pets from database 
+GET http://localhost:5000/pets
+
+### reads pet at given index 
+GET http://localhost:5000/pets/3
+
+### creates new pet
+POST http://localhost:5000/pets 
+
+### updates 
